@@ -44,6 +44,9 @@ catalog.addEventListener("click", (e) => {
     renderCart();
 });
 
-
+clearBtn.addEventListener("click", () => {
+    cart.length = 0;
+    renderCart();
+});
 
 renderProducts();
